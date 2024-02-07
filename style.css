@@ -1,0 +1,58 @@
+
+
+header{
+
+  
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 84px;
+  width: 100%;
+  background-color: rgb(35, 114, 88); 
+}
+
+.logo {
+  float: left;
+  padding:0px 0px 0px 55px;
+ 
+}
+
+nav{
+  padding:0px 54px 0px 0px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+
+}
+
+.link {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  display:flex;
+  justify-content: space-between;
+}
+
+.link:link {
+  color: #ffffff;
+}
+.link:visited {
+  color: #ffffff;
+}
+.link:hover {
+  background:#3c8402;
+}
+
+.link:active {
+  background: #3c8402;
+  color: #cdfeaa;
+}
+
+.Jumbotron{
+  background: url("image.png") center no-repeat;
+  color:#3c8402;
+  background-size: cover;
+  
+}
