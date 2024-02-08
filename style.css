@@ -1,6 +1,6 @@
 
 *{
-  box-sizing: content-box;}
+  box-sizing: border-box;}
 
 html{
   width: 100%;
@@ -9,7 +9,8 @@ html{
   max-width:1219px;
   padding-left: 55px;
   padding-right: 55px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -23,7 +24,7 @@ header{
   
   height: 84px;
   width: 100%;
-  background-color: rgb(35, 114, 88); 
+  background-color:#007765; 
 }
 .header{
   width:1219px;
@@ -116,4 +117,36 @@ p{
   padding-left: 55px;
   margin-right: 48px;
   margin-top: 30px;
+}
+.name{
+  color:#007765;
+  font-weight: bold;
+  font-size: 24;
+  text-align: center;
+}
+.role{
+  font-style: italic;
+  font-size: 18;
+  text-align: center;
+}
+.name_role{
+  text-align: center;
+  flex-basis: 25%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.team{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer{
+  background-color: #333333;
+}
+.footer{
+  color:#ffffff;
+  font-size: 18;
+  text-align: center;
+  padding: 48px 340px 64px;
 }
