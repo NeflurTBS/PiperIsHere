@@ -26,20 +26,19 @@ header{
   background-color: rgb(35, 114, 88); 
 }
 .header{
+  width:1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: auto;
+  max-width: 1219px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo{
-  padding-left: 55px;
-}
-
 nav{
   color:#fff;
   font-size: 24px;
-  padding-right: 55px;
-
 }
 .link {
   outline: none;
@@ -61,7 +60,6 @@ nav{
   background: #3c8402;
   color: #cdfeaa;
 }
-
 
 .Jumbotron{
 
@@ -92,8 +90,6 @@ h2{
 }
 p{
   font-size: 32px;
-  padding-left: 55px;
-  padding-right: 55px;
 }
 
 .Hero{
