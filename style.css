@@ -55,11 +55,10 @@ nav{
   color: #ffffff;
 }
 .link:hover {
-  background:#3c8402;
+  color: #ffffff;
 }
 .link:active {
-  background: #3c8402;
-  color: #cdfeaa;
+  color: #ffffff;
 }
 
 .Jumbotron{
